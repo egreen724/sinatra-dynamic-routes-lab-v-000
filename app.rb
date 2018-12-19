@@ -20,6 +20,7 @@ class App < Sinatra::Base
       @num.to_i.times do 
         string += "#{@phrase}"
     end 
+    string 
   end
   
   get "/say/:word1/:word2/:word3/:word4/:word5" do 
